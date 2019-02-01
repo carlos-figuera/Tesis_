@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "529167711333",
+    "firebase_url": "https://tesis-c6dfd.firebaseio.com",
+    "project_id": "tesis-c6dfd",
+    "storage_bucket": "tesis-c6dfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529167711333:android:b633591e100dccc8",
+        "android_client_info": {
+          "package_name": "geolocate_.com.tesis_"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529167711333-61h88dbh8gk3ia81n1a1htr6h9a7m3r0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7YOOxHOHtHeoANqxYHVbYsmu48yJrRLM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

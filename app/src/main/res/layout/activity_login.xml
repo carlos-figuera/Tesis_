@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.percent.PercentRelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/PARTE11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            app:layout_heightPercent="30%"
+            app:layout_widthPercent="50%">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/PARTE1"
+            android:layout_below="@+id/PARTE11"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            app:layout_heightPercent="23%"
+            app:layout_widthPercent="80%">
+
+            <LinearLayout
+                android:id="@+id/p"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:elevation="1dp">
+
+                    <EditText
+                        android:id="@+id/Edit_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:elevation="1dp"
+                        android:hint=" Correo"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:text="figuerac21@gmail.com" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1">
+
+
+                    <EditText
+                        android:id="@+id/Edit_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:elevation="1dp"
+                        android:hint=" Contraseña"
+                        android:imeActionId="6"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="123456" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/PARTE2"
+            android:layout_below="@+id/PARTE1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="32dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            app:layout_heightPercent="8%"
+            app:layout_widthPercent="80%">
+
+
+            <TextView
+                android:id="@+id/Txt_recuperar_contrasena"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="¿Olvidaste tu contraseña?"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/Txt_crear_cuenta"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="¿Crear una cuenta?"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/PARTE3"
+            android:layout_below="@+id/PARTE2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="32dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            app:layout_heightPercent="8%"
+            app:layout_widthPercent="80%">
+
+            <Button
+                android:id="@+id/Btn_ingresar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="40dp"
+                android:layout_weight="1"
+                android:elevation="10dp"
+                android:text="Ingresar "
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </android.support.percent.PercentRelativeLayout>
+
+
+</LinearLayout>
